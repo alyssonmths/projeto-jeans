@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner {
+    height: 80vh;
+    background: url(imagens/pexels-castorlystock-4109755.jpg) center;
+    background-size: cover;
+}
+
+/* Configurando cards */
+
+/* .card {
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+} */
+
+.card-header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header > h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#card-um {
+    background: url(imagens/sustentabilidade.jpg) center;
+    background-size: cover;
+}
+
+#card-dois {
+    background: url(imagens/Qualidade.jpg) center;
+    background-size: cover;
+}
+
+#card-tres {
+    background: url(imagens/Artesanato.jpg) center;
+    background-size: cover;
+}
+
+#card-quatro {
+    background: url(imagens/Inovação.jpg) center;
+    background-size: cover;
+}
+
+/* Fim da section cards */
+
+#sobre-a-fabricacao {
+    height: 50vh;
+    background-image: url(imagens/pexels-cottonbro-4614117.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Configurando categorias */
+
+.categoria {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.categoria h1 {
+    font-size: 1.5em;
+}
+
+.categoria:hover {
+    opacity: 70%;
+    background-position: bottom !important;
+    transition: 0.5s;
+}
+
+#shorts {
+    background: url(imagens/Qualidade.jpg) center;
+    background-size: cover;
+}
+
+#jaquetas {
+    background: url(imagens/pexels-cottonbro-6770027.jpg) center;
+    background-size: cover;
+}
+
+#conjuntos {
+    background: url(imagens/pexels-micaasato-1082528.jpg);
+    background-size: cover;
+}
+
+#mae {
+    background-color: black;
+}
+
+#casal {
+    background: url(imagens/pexels-rogerio-martins-300911-981619.jpg);
+    background-size: cover;
+}

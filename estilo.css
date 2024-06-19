@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.width {
+    width: 90vw;
+}
+
+#barra-preta {
+    color: white;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#barra-preta > div {
+    width: 14%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1150px) {
+    #barra-preta {
+        display: none;
+    }
+}
+
+#logo {
+    width: 200px;
+    height: 70px;
+    background: url(imagens/be-jeans.svg) center;
+    background-size: cover;
+}
+
+#navegacao a {
+    text-align: center;
+}
+
+#navegacao a:hover {
+    background-color: rgb(47, 111, 194);
+    color: white;
+}
+
+#banner {
+    height: 60vh;
+    background: url(imagens/pexels-castorlystock-4109755.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    opacity: 95%;
+}
+
+#banner > h1 {
+    font-size: 7em;
+}
+
+#cards {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 15%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 20%;
+    margin: 15px;
+}
+
+#sobre-a-fabricacao {
+    height: 50vh;
+    background: rgb(255, 229, 198) url(imagens/pexels-micaasato-1082528.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px solid black;
+}

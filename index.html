@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adilza Jeans</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link icones -->
+    <link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md">
+
+            <a href="" class="navbar-brand">Adilza Jeans</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navegacao">
+                <div class="navbar-nav ms-auto me-2">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="produtos.html" class="nav-link">Produtos</a>
+
+                    <div class="nav-item dropdown">
+                        <a href="categorias.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Categorias</a>
+                        <div class="dropdown-menu text-center">
+                            <a href="#" class="dropdown-item">Shorts</a>
+                            <a href="#" class="dropdown-item">Calças</a>
+                            <a href="#" class="dropdown-item">Jaquetas</a>
+                        </div>
+                    </div>
+
+                    <a href="sobre.html" class="nav-link">Sobre</a>
+                    <a href="contato.html" class="nav-link">Contato</a>
+                </div>
+                <form action="" class="d-flex">
+                    <input type="search" class="form-control me-2" placeholder="Pesquise algo...">
+                    <button type="submit" class="btn btn-outline-dark"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="banner" class="text-light text-uppercase d-flex flex-column justify-content-center align-items-center">
+            <h1 class="display-1 fw-bold">Adilza Jeans</h1>
+            <p class="lead">
+                Com os melhores preços da internet
+            </p>
+        </div>
+
+        <section class="container-fluid">
+                <div class="row justify-content-around my-3 g-0">
+
+                    <!-- Card 1 -->
+
+                    <div class="card col-md-6 col-lg">
+                        <div class="card-header" id="card-um">
+                            <h1>Sustentabilidade</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Nossas peças são produzidas seguindo práticas de fabricação sustentáveis, utilizando materiais reciclados e minimizando o impacto ambiental.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-dark">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+
+                    <div class="card col-md-5 col-lg">
+                        <div class="card-header" id="card-dois">
+                            <h1>Qualidade</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Cada peça é cuidadosamente confeccionada com os mais altos padrões de qualidade, garantindo durabilidade e conforto incomparáveis.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-dark">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+
+                    <div class="card col-md-6 col-lg">
+                        <div class="card-header" id="card-tres">
+                            <h1>Artesanato</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Valorizamos o artesanato tradicional em cada etapa da produção, desde o corte à mão até os detalhes de costura feitos com precisão.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-dark">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+
+                    <div class="card col col-md-5 col-lg">
+                        <div class="card-header" id="card-quatro">
+                            <h1>Inovação</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Estamos sempre buscando novas técnicas e tecnologias para aprimorar nossos processos de fabricação, garantindo produtos de ponta e sempre atualizados.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-dark">Saiba mais</button>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        
+        <section id="sobre-a-fabricacao" class="d-flex justify-content-center align-items-center my-4" style="box-shadow: 1px 1px 1px black;">
+            <div class="w-50">
+                <h1 class="text-center text-uppercase p-2" style="background-color: rgba(255, 255, 255, 0.397);">Sobre a fabricação</h1>
+                <p style="text-align: center;">
+                    Somos uma pequena empresa que preza pela qualidade dos nossos produtos, prezando pela rapidez na entrega e garantia de satisfação dos nossos clientes.
+                </p>
+            </div>
+        </section>
+        
+        <section class="container-fluid">
+            <div id="categorias" class="row">
+                <a href="" class="categoria col-sm" id="shorts">
+                    <h1>Shorts</h1>
+                </a>
+                <a href="" class="categoria col-sm" id="jaquetas">
+                    <h1>Jaquetas</h1>
+                </a>
+                <a href="" class="categoria col-sm" id="conjuntos">
+                    <h1>Conjuntos</h1>
+                </a>
+                <a href="" class="categoria col-sm" id="mae">
+                    <h1>Mãe & Filha</h1>
+                </a>
+                <a href="" class="categoria col-sm" id="casal">
+                    <h1>Casal</h1>
+                </a>
+            </div>
+        </section>
+
+        <section id="depoimentos">
+            <h1>O que dizem nossos clientes</h1>
+            <blockquote>
+                Carla M. - São Paulo, Brasil:
+                "Eu simplesmente amo as peças de jeans desta marca! A qualidade é impecável e o ajuste é perfeito. Além disso, fico feliz em saber que estão comprometidos com práticas sustentáveis de fabricação. Definitivamente, recomendo!"</blockquote>
+            <blockquote>
+                Michael H. - Nova York, EUA:
+                "Sou cliente fiel desta marca há anos e continuo impressionado com a atenção aos detalhes em cada peça. O denim é durável e confortável, e sempre me sinto confiante usando suas roupas. Mal posso esperar para ver as próximas coleções!"
+            </blockquote>
+            <blockquote>
+                Sophie L. - Paris, França:
+                "Descobri esta marca durante uma viagem e desde então me tornei uma grande fã. As peças de jeans são elegantes e versáteis, perfeitas para o meu estilo de vida agitado. É ótimo saber que estou apoiando uma marca que valoriza a qualidade e a sustentabilidade."
+            </blockquote>
+        </section>
+
+        <section>
+            <h1>Dia dos namorados</h1>
+            <p>Confira nossa nova coleção</p>
+            <a href="">Confira</a>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
