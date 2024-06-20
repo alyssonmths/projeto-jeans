@@ -87,7 +87,6 @@
 
 .categoria:hover {
     opacity: 70%;
-    background-position: bottom !important;
     transition: 0.5s;
 }
 
